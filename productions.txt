@@ -1,0 +1,12 @@
+N -> G(N)
+N -> S(N,T)
+N -> S(T,N)
+N -> S(N1,N2)
+T -> a
+T -> b
+T -> G(T)
+T -> S(T,T)
+N1 -> S(N3,T)
+N2 -> S(N4,N3)
+N3 -> a
+N4 -> b
