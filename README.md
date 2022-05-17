@@ -1,7 +1,6 @@
-# simple-tree-automaton
-A simple tree automaton
+# tree automaton determinization
 
-[![Code Issues](http://www.quantifiedcode.com/api/v1/project/8710eecb3a4440e6885983c255266775/badge.svg)](http://www.quantifiedcode.com/app/project/8710eecb3a4440e6885983c255266775)
+forked from YNedderhoff
 
 How to run program?
 
@@ -17,10 +16,4 @@ The startsymbols file lists the startsymbols per line. The grammar is stored in 
 
 For details see the example files "startsymbols.txt" and "productions.txt"
 
-As input, you write a tree as a string composed of nodes, opening/closing brackets and commas:
-
-* A
-* A(a,B(b,c))
-* A(B(a,b),C(D(d,e)))
-
-As output you'll get _True_ if the automaton accepts the tree given the start symbols and the productions, or _False_, if not.
+As output you'll get the states and productions of the equivalent deterministic tree automaton.
